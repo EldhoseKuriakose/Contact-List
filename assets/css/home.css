@@ -1,0 +1,90 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+}
+
+#page-heading{
+    text-align: center;
+    margin-top: 25px;
+    color: grey;
+}
+
+#contacts-list-container{
+    width: 30%;
+    min-width: 25rem;
+    margin: 0 auto;
+}
+
+#contacts-list-container ul{
+    padding: 0;
+    list-style: none;
+}
+
+.contact{
+    padding: 3px 10px;
+    border: 1px solid white;
+    background-color: #6f92f9;
+    box-shadow: 1px 1px 1px 1px lightgrey;
+    color: white;
+    display: flex;
+    flex-direction: row;
+}
+
+.contact:hover{
+    transition: 0.8s ease;
+    transform: scale(1.03);
+    cursor: pointer;
+    opacity: 75%;
+    color: black;
+}
+
+.contact .details{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 90%;
+}
+
+.contact .delete-button{
+    width: 10%;
+    text-align: center;
+    padding: 5.5px;
+}
+
+.contact .delete-button:hover{
+    cursor: pointer;
+    opacity: 60%;
+}
+
+.contact .delete-button a{
+    color: darkred;
+}
+
+.contact p{
+    margin: 5px 0;
+}
+
+#new-contact-form{
+    text-align: center;
+}
+
+#new-contact-form input{
+    background-color: lightyellow;
+    height: 1.5rem;
+}
+
+#new-contact-form button{
+    color: white;
+    background-color: slateblue;
+    width: 5rem;
+    height: 1.5rem;
+    margin-left: 10px;
+    border: none;
+}
+
+#new-contact-form button:hover{
+    color: black;
+    cursor: pointer;
+    opacity: 70%;
+}
